@@ -1,5 +1,1 @@
-{
-  "name": "MyStore",
-  "integrations": {},
-  "type": "custom",
-}
+{"name": "MyStore", "integrations": {}, "type": "custom",}
