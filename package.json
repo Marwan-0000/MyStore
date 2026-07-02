@@ -4,14 +4,19 @@
   "author": "",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-      "ionic:build": "echo 'No build step needed'",
-      "test": "echo 'Error: no test specified'"
-    },
-  "keywords":[],
-  "license": "ISC",
-  "type": "commonjs",
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+      "ionic:build": "npm run build"
+  },
   "dependencies": {
-      "@capacitor/cil": "^8.4.1",
-      "@capacitor/core": "^8.4.1"
+    "@capacitor/android": "^6.0.0",
+      "@capacitor/cil": "^6.0.0",
+      "@capacitor/core": "^6.0.0"
+  }
+  "devDependencies": {
+    "@ionic/cli": "^7.2.0"
   }
 }
