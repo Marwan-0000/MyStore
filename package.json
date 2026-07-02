@@ -1,18 +1,17 @@
 {
-  "name": "mystore",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "ionic:build": "echo 'No build step needed'",
-     "test": "echo 'Error: no test specified'" 
-  },
-  "keywords": [],
+  "name": "MyStore",
+  "version": "0.0.1",
   "author": "",
+  "homepage": "https://ionicframework.com/",
+  "scripts": {
+      "ionic:build": "echo 'No build step needed'",
+      "test": "echo 'Error: no test specified'"
+    },
+  "keywords":[],
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@capacitor/cli": "^8.4.1",
-    "@capacitor/core": "^8.4.1"
+      "@capacitor/cil": "^8.4.1",
+      "@capacitor/core": "^8.4.1"
   }
 }
