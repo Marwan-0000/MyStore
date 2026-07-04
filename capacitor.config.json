@@ -1,5 +1,9 @@
 {
-  "appId": "com.mystore.app",
+  "appId":
+  "com>mystore.app",
   "appName": "mystore",
-  "webDir": "www"
+  "wepDir": "www",
+  "android": {
+    "path": "android"
+  }
 }
