@@ -4,8 +4,7 @@
   "author": "",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "ionic:build": "echo 'No build step needed'",
-    "test": "echo 'Error: no test specified'"
+    "ionic:build": "npx cap add android"
   },
   "keywords": [],
   "license": "ISC",
